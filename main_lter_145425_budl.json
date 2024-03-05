@@ -1,0 +1,86 @@
+3 * 39,51,23,85,91,28,62,77,82,80,7,75,33,73,20,88,24,48,27,24,97,72,95,86,53,96,50,4,84,96,58,70,18,61,21,90,55,35,40,9,87,43,24,17,65,88,69,38,4,58,84,43,38,22,11,37,56,63,93,36,4,79,16,86,92,38,29,31,58,84,92,49,12,69,32,33,19,48,82,13,25,89,54,80,79,78,75,79,17,64,54,31,21,80
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+false * 46
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+true - banana
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+true + 27
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+false * 73,20,32,66,16,87,85,35,82,17,37,18,45,13,58,25,94,29,45,18,21,45,47,41,32,55,21,63,54,85,99,91,87,85,11,94,6,13,65,28,30,82,40,68,72,64,68,34,75,93,96,78,53,45,88,89,97,71,74,60,75,66,2,71,2,19
+
+const capitalizeString = str => str.toUpperCase();
+orange - banana
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+banana
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+true / 63,16,45,27,44,97,46,92,78,53,40,89,35,80,63,13,64,11,66,73,8,24,11,37,55,0,46,34,82,54,65,55,74,75,89,45,23,24,65,16,59,77,63,7,53,41,8,48,14,33,43,90,29,57,13,79,13,93,25,7,47,23,84,78,72,53,55,64,15,40,89,56,96,47,65,76,11,36,52,1,21,72,63,69,10,15,69
+const sum = (a, b) => a + b;
+19,83,76,30,2,25,77,58,79,6,75,53,37,11,25,56,83,94,60,33,56,80,85,35,33,84,40,88,4,17,37,77,35,15,64,46,93,24,40,9,45,82,16,37,62,30,98,42,40,64,51,24,96,89,91,94,75,90,15,30,56,58,4,45,16,24,84,89,59,89,30,27,80,52,24,37,70,49,63,54,30,47,5,25,80,61,99,73,30,30,80,22,91,34 - apple
+console.log(getRandomString());
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+57,14,8,14,60,45,15,49,21,69,64,81,52,57,77,8,65,14,76,38,40,70,98,43,84,47,82,85,90,56,49,9,17,16,46,99,92,98,0,10,61,25,91,56,13,48,88,13,83,27,98,80,55,89,84,47,75,99,19,88,32,75,74,22,61,30,47,99,37,88,21,81,64,80,67,25,63,7,68,32,48 * true
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const multiply = (a, b) => a * b;
+grape
+
+const sum = (a, b) => a + b;
+28 / false
+
+const greet = name => `Hello, ${name}!`;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+53 + 83,70,38,19,65,75,12,98,92,70,50,20,60,53,29,14,25,11,57,21,34,65,41,14,24,74,63,16,82,27,73,57,7,94,9,92,44,31,26,0,40,23,18,54,76,50,10,71,24,52,63,66,15,80,28,6,97,85,68,48,25,65,27,5,4,37,45,78,91,50,75,35,47,66,82,56,18,43,23,18,95,18,39
+const removeDuplicates = array => Array.from(new Set(array));
+22 - false
+function addNumbers(a, b) { return a + b; }
+const isEven = num => num % 2 === 0;
+36 + true
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+apple
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+console.log(getRandomString());
+88,55,79,34,76,17,91,79,23,67,72,2,17,35,11,55,97,73,87,47,66,87,83,4,16,86,99,38,64,12,56,16,38,41,55,46,2,22,28,46,70,96,56,88,75,54,5,60,59,47,55,13,59,83,75 / 7,95,77,45,40,7,98,19,45,29,31,28,54,50,31,9,39,85,9,7,6,7,74,29,32,44,37,7,21,10,20,49,23,70,88,8,46,39,47,9,34,90,63,83,83,86,30,60,35,97,41,65,99,51,89,94,36,71,66,55,82,63,68,70,61,57,55,71,14,37,45,71,91,99,94,41,48
+const reverseString = str => str.split("").reverse().join("");
+const reverseString = str => str.split("").reverse().join("");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+kiwi
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+apple + grape
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+console.log(getRandomString());
+32,92,20,39,41,2,4,5,28,61,54,27,14,35,11,26,19,6,68,84,17,72,26,89,12,87,16,83,53,67,8,36,82,37,68,15,70,42,82,41,83,52,63,67,35,65,54,60,59,86,61,61,41 / 37
+const capitalizeString = str => str.toUpperCase();
+false + banana
+let result = performOperation(getRandomNumber(), getRandomNumber());
+true + 62
+const reverseString = str => str.split("").reverse().join("");
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+false / 65
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
