@@ -1,0 +1,100 @@
+const formatDate = date => new Date(date).toLocaleDateString();
+1,54,66,46,26,74,9,74,18 - 81
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+function addNumbers(a, b) { return a + b; }
+
+apple - 51,51,17,73,63,31,60,38,99,24,35,73,83,89,20,15,41,13,86,24,85,42,50,49,59,44,99,22,47,97,81,30,18,40,85,60,15,0,51,69,90,68,92,41,73,7,33,37,14,8,3,73,15,88,67,20,71,18,13,62,20,30,30,87,3,0,18,98,17,50,38,82,9,1,87,80
+const squareRoot = num => Math.sqrt(num);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const multiply = (a, b) => a * b;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const removeDuplicates = array => Array.from(new Set(array));
+
+33 * banana
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+grape + kiwi
+const getUniqueValues = array => [...new Set(array)];
+
+function addNumbers(a, b) { return a + b; }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+grape
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const getUniqueValues = array => [...new Set(array)];
+kiwi
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const findLargestNumber = numbers => Math.max(...numbers);
+58,51,12,0,13,50,28,72,77,88,26,59,24,99,39,55,79,65,5,49,43,93,31,41,2,38,47,46,12,87,11,30,27,84,40,32,15,98,7,0,13 / 33,21,58,22,75,96,1,10,44,93,72,97,26,39,12,77,35,2,39,42,70,83,96,28,4,34,2,20,15,67,7,42,30,96,1,43,32,39,27,48,69,62,46,76,21,64,12,46,87,31,51,17,24,25,28,1,4,25,61,90,58,67,48,20,9,7,2,67,77,49,0,2,55,50,30,61,19,46,23,43,59,82,44,81,76,6,18,61,24,99,10,49,43,73,86,51,3,68
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const isEven = num => num % 2 === 0;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const isEven = num => num % 2 === 0;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+11 * false
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const findLargestNumber = numbers => Math.max(...numbers);
+const findSmallestNumber = numbers => Math.min(...numbers);
+false * banana
+const getRandomElement = array => array[getRandomIndex(array)];
+true - kiwi
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+true + false
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+55 - true
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+banana
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const findLargestNumber = numbers => Math.max(...numbers);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi
+
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+orange
+
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getUniqueValues = array => [...new Set(array)];
+88 - grape
+const findLargestNumber = numbers => Math.max(...numbers);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+kiwi
+
+console.log(getRandomString());
+kiwi * orange
+const randomNumber = getRandomNumber();
+91,59,12,20,39,55,67,73,87,58,82,96,83,36,38,89,77,53,75,21,70,73,21,83,81,57,97,76,93,30,36,55,49,11,61,98,66,86,80,91,5,40,58,72,6,63,28,3,15,27,64,60,60,77,79,17,34,3,2,10,21,14,25,24,38,45,34,94,48,13,10,89,76,62,36,92,55,53,84,91,58,84,52,12 * 31
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+true / false
+const isEven = num => num % 2 === 0;
+const greet = name => `Hello, ${name}!`;
+
+orange
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
