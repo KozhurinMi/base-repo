@@ -1,0 +1,50 @@
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const findLargestNumber = numbers => Math.max(...numbers);
+18,3,38,21,83,56,22,61,44,31,88,62,24,46,52,76,2,0,65,21,30 + 61
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+console.log(getRandomString());
+const randomNumber = getRandomNumber();
+true + true
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+false * orange
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+6,66,52,10,47,32,55,5,31,27,96,65,50,84,12,2,51,13,54,39,5,39,94,65,30,43,21,66,45,46,0,26,72,84,87,83,17,89,11,97,40,50,61,6,74,78,88,80,93,5,62,20,56,44,45,86,10,48,85,60,4,76 * true
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+banana / false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const isPalindrome = str => str === str.split("").reverse().join("");
+true / orange
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const squareRoot = num => Math.sqrt(num);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const isEven = num => num % 2 === 0;
+
+const squareRoot = num => Math.sqrt(num);
+71,68,17,43,21,85,72,57,9,87,61,26,2,98,13,14,70,49,50,50,35,95,91,78,57,22,25,27 - orange
+
+const squareRoot = num => Math.sqrt(num);
+80 - false
+const capitalizeString = str => str.toUpperCase();
+
+grape + 11
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+apple * false
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sum = (a, b) => a + b;
+grape
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
